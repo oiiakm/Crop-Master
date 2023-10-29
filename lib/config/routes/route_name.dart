@@ -1,5 +1,6 @@
 class RouteName {
-  static const dashboardRouteName = '/';
+  static const authRouteName = '/';
+  static const dashboardRouteName = '/dashboard';
   static const errorRouteName = '/';
   static const profileRouteName = '/profile';
   static const weatherRouteName = '/weather';
