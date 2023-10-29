@@ -1,6 +1,8 @@
 import 'package:cropmaster/common/snackbar.dart';
+import 'package:cropmaster/common/splash_widget.dart';
 import 'package:cropmaster/features/auth/domain/auth.dart';
 import 'package:cropmaster/features/auth/data/firestore.dart';
+import 'package:cropmaster/features/dashboard/presentation/pages/dashboard.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -212,7 +214,14 @@ class _OtpPageState extends State<OtpPage> {
   }
 
   Future<void> _navigation(Map<String, dynamic> userData) async {
-    Get.off('/dashboard');
+   
+    Get.to(() => SplashWidget(
+              imagePath: 'assets/splash.gif',
+              duration: const Duration(seconds: 2),
+              onFinished: () {
+                Get.off(() =>  DashboardPage());
+              },
+            ));
   }
 
   void _resendOTP() {
