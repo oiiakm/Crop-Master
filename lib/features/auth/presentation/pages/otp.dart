@@ -42,7 +42,7 @@ class _OtpPageState extends State<OtpPage> {
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(
-        statusBarColor:Colors.white,
+        statusBarColor: Colors.white,
       ),
     );
 
@@ -214,14 +214,13 @@ class _OtpPageState extends State<OtpPage> {
   }
 
   Future<void> _navigation(Map<String, dynamic> userData) async {
-   
     Get.to(() => SplashWidget(
-              imagePath: 'assets/splash.gif',
-              duration: const Duration(seconds: 2),
-              onFinished: () {
-                Get.off(() =>  DashboardPage());
-              },
-            ));
+          imagePath: 'assets/splash.gif',
+          duration: const Duration(seconds: 2),
+          onFinished: () {
+            Get.off(() => DashboardPage());
+          },
+        ));
   }
 
   void _resendOTP() {

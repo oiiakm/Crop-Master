@@ -1,5 +1,6 @@
 class RouteName {
-  static const authRouteName = '/';
+  static const initialSplashRouteName = '/';
+  static const authRouteName = '/auth';
   static const dashboardRouteName = '/dashboard';
   static const errorRouteName = '/';
   static const profileRouteName = '/profile';
