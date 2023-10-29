@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "63363405567",
+    "project_id": "crop-master-9dd6a",
+    "storage_bucket": "crop-master-9dd6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63363405567:android:eb571194b14bd8725e5eca",
+        "android_client_info": {
+          "package_name": "com.example.cropmaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0q9h0hyYbrSQ0mTyeGahv4ytjV5O8zb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
