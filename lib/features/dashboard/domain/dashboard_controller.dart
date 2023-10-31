@@ -3,18 +3,10 @@ import 'package:get/get.dart';
 
 class DashboardController extends GetxController {
   final cardDataList = <DashboardCardData>[
-    DashboardCardData(
-      'Profile',
-    ),
-    DashboardCardData(
-      'Weather',
-    ),
-    DashboardCardData(
-      'My Crops',
-    ),
-    DashboardCardData(
-      'Market',
-    ),
+    DashboardCardData('Profile', 'assets/images/profile.jpg'),
+    DashboardCardData('Weather', 'assets/images/weather.jpg'),
+    DashboardCardData('My Crops', 'assets/images/crops.jpg'),
+    DashboardCardData('Market', 'assets/images/market.jpg'),
   ].obs;
 
   void handleCardTap(int index) {

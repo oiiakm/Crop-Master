@@ -13,21 +13,26 @@ class DashboardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Column(
-      children: [
-        const HeaderWidget(),
-        Expanded(
-          child: GridView.builder(
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2,
+      body: Column(
+        children: [
+          const HeaderWidget(),
+          Expanded(
+            child: GridView.builder(
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+              ),
+              itemCount: dashboardController.cardDataList.length,
+              itemBuilder: (context, index) {
+                return DashboardCardWidget(
+                  index: index,
+                  backgroundImageUrl: dashboardController
+                      .cardDataList[index].backgroundImageUrl,
+                );
+              },
             ),
-            itemCount: dashboardController.cardDataList.length,
-            itemBuilder: (context, index) {
-              return DashboardCardWidget(index: index);
-            },
           ),
-        ),
-      ],
-    ));
+        ],
+      ),
+    );
   }
 }
