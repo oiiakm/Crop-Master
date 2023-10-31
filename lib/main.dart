@@ -1,6 +1,7 @@
 import 'package:cropmaster/config/routes/route_config.dart';
 import 'package:cropmaster/config/routes/route_error.dart';
 import 'package:cropmaster/config/routes/route_name.dart';
+import 'package:cropmaster/features/profile/domain/profile_controller.dart';
 import 'package:cropmaster/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,6 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-
   runApp(const MyApp());
 }
 

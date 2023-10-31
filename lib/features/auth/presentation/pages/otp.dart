@@ -215,7 +215,7 @@ class _OtpPageState extends State<OtpPage> {
 
   Future<void> _navigation(Map<String, dynamic> userData) async {
     Get.to(() => SplashWidget(
-          imagePath: 'assets/splash.gif',
+          imagePath: 'assets/gif/splash.gif',
           duration: const Duration(seconds: 2),
           onFinished: () {
             Get.off(() => DashboardPage());

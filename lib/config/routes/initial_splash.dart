@@ -34,7 +34,7 @@ class _InitialSplashPageState extends State<InitialSplashPage> {
           height: ScreenUtil().setHeight(200),
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage("assets/splash.gif"),
+              image: AssetImage("assets/gif/splash.gif"),
               fit: BoxFit.contain,
             ),
           ),
