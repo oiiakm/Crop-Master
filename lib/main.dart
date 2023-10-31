@@ -15,7 +15,7 @@ void main() async {
   );
 
   runApp(const MyApp());
-} 
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         );
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          initialRoute: RouteName.dashboardRouteName,
+          initialRoute: RouteName.initialSplashRouteName,
           unknownRoute: GetPage(
               name: RouteName.errorRouteName, page: () => const ErrorPage()),
           getPages: AppRoutes.pages,
