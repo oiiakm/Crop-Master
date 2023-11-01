@@ -14,16 +14,17 @@ class ProfileController extends GetxController {
       final userDocRef = firestore.collection('users').doc(user!.uid);
 
       try {
-        await userDocRef.set({
-          'firstName': newProfile.firstName,
-          'lastName': newProfile.lastName,
-          'age': newProfile.age,
-          'phone': newProfile.phone,
-          'country': newProfile.country,
-          'state': newProfile.state,
-          'city': newProfile.city,
-          'pincode': newProfile.pincode,
-        });
+        Map<String, dynamic> updatedData = {
+          if (newProfile.firstName != null) 'firstName': newProfile.firstName,
+          if (newProfile.lastName != null) 'lastName': newProfile.lastName,
+          if (newProfile.age != null) 'age': newProfile.age,
+          if (newProfile.country != null) 'country': newProfile.country,
+          if (newProfile.state != null) 'state': newProfile.state,
+          if (newProfile.city != null) 'city': newProfile.city,
+          if (newProfile.pincode != null) 'pincode': newProfile.pincode,
+        };
+
+        await userDocRef.update(updatedData);
 
         userProfile.value = newProfile;
         MessageDisplay.showMessage("Profile Updated successfully");
@@ -45,7 +46,7 @@ class ProfileController extends GetxController {
           firstName: data['firstName'],
           lastName: data['lastName'],
           age: data['age'],
-          phone: data['phone'],
+          phone: data['phoneNumber'],
           country: data['country'],
           state: data['state'],
           city: data['city'],

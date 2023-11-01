@@ -9,11 +9,9 @@ import 'package:get/get.dart';
 
 class InitialProfilePage extends StatelessWidget {
   final ProfileController controller = Get.put(ProfileController());
-
   final TextEditingController firstNameController = TextEditingController();
   final TextEditingController lastNameController = TextEditingController();
   final TextEditingController ageController = TextEditingController();
-  final TextEditingController phoneController = TextEditingController();
   final TextEditingController countryController = TextEditingController();
   final TextEditingController stateController = TextEditingController();
   final TextEditingController cityController = TextEditingController();
@@ -54,7 +52,6 @@ class InitialProfilePage extends StatelessWidget {
         buildTextField('First Name', firstNameController),
         buildTextField('Last Name', lastNameController),
         buildTextField('Age', ageController),
-        buildTextField('Phone', phoneController),
         buildTextField('Country', countryController),
         buildTextField('State', stateController),
         buildTextField('City', cityController),
@@ -65,7 +62,6 @@ class InitialProfilePage extends StatelessWidget {
               firstName: firstNameController.text,
               lastName: lastNameController.text,
               age: ageController.text,
-              phone: phoneController.text,
               country: countryController.text,
               state: stateController.text,
               city: cityController.text,

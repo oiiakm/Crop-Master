@@ -57,89 +57,92 @@ class _MainProfilePageState extends State<MainProfilePage> {
               children: [
                 Obx(() {
                   final userProfile = _profileController.userProfile.value;
-                  return Column(
-                    children: [
-                      Row(
-                        children: [
-                          Text(
-                            (userProfile.firstName ?? "N/A").toUpperCase(),
-                            style: TextStyle(
-                              fontSize: 20.sp,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.white,
+                  return Padding(
+                    padding:EdgeInsets.all(10.sp),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            Text(
+                              (userProfile.firstName ?? "N/A").toUpperCase(),
+                              style: TextStyle(
+                                fontSize: 20.sp,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                              ),
                             ),
-                          ),
-                          Text(
-                            ' ${userProfile.lastName ?? "N/A"}'.toUpperCase(),
-                            style: TextStyle(
-                              fontSize: 20.sp,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.white,
+                            Text(
+                              ' ${userProfile.lastName ?? "N/A"}'.toUpperCase(),
+                              style: TextStyle(
+                                fontSize: 20.sp,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                              ),
                             ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: [
-                          Text(
-                            'Age: ${userProfile.age ?? "N/A"}',
-                            style: TextStyle(
-                              fontSize: 16.sp,
-                              color: Colors.white,
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              'Age: ${userProfile.age ?? "N/A"}',
+                              style: TextStyle(
+                                fontSize: 16.sp,
+                                color: Colors.white,
+                              ),
                             ),
-                          ),
-                          Text(
-                            '                     Phone: ${userProfile.phone ?? "N/A"}',
-                            style: TextStyle(
-                              fontSize: 16.sp,
-                              color: Colors.white,
+                            Text(
+                              '                     Phone: ${userProfile.phone ?? "N/A"}',
+                              style: TextStyle(
+                                fontSize: 16.sp,
+                                color: Colors.white,
+                              ),
                             ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: [
-                          Text(
-                            'Country: ${userProfile.country ?? "N/A"}',
-                            style: TextStyle(
-                              fontSize: 16.sp,
-                              color: Colors.white,
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              'Country: ${userProfile.country ?? "N/A"}',
+                              style: TextStyle(
+                                fontSize: 16.sp,
+                                color: Colors.white,
+                              ),
                             ),
-                          ),
-                          SizedBox(
-                            width: 20.w,
-                          ),
-                          Text(
-                            '    State: ${userProfile.state ?? "N/A"}',
-                            style: TextStyle(
-                              fontSize: 16.sp,
-                              color: Colors.white,
+                            SizedBox(
+                              width: 20.w,
                             ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: [
-                          Text(
-                            'Pincode: ${userProfile.pincode ?? "N/A"}',
-                            style: TextStyle(
-                              fontSize: 16.sp,
-                              color: Colors.white,
+                            Text(
+                              '    State: ${userProfile.state ?? "N/A"}',
+                              style: TextStyle(
+                                fontSize: 16.sp,
+                                color: Colors.white,
+                              ),
                             ),
-                          ),
-                          Text(
-                            '    City: ${userProfile.city ?? "N/A"}',
-                            style: TextStyle(
-                              fontSize: 16.sp,
-                              color: Colors.white,
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              'Pincode: ${userProfile.pincode ?? "N/A"}',
+                              style: TextStyle(
+                                fontSize: 16.sp,
+                                color: Colors.white,
+                              ),
                             ),
-                          ),
-                          SizedBox(
-                            width: 20.w,
-                          ),
-                        ],
-                      ),
-                    ],
+                            Text(
+                              '    City: ${userProfile.city ?? "N/A"}',
+                              style: TextStyle(
+                                fontSize: 16.sp,
+                                color: Colors.white,
+                              ),
+                            ),
+                            SizedBox(
+                              width: 20.w,
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   );
                 }),
               ],
