@@ -1,8 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:get/get.dart';
 
 class FirestoreService {
-  Future<void> addUserDetail( String mobile) async {
+  Future<void> addUserDetail(String mobile) async {
     final User? user = FirebaseAuth.instance.currentUser;
     if (user != null) {
       final String uid = user.uid;
@@ -11,15 +12,12 @@ class FirestoreService {
             await FirebaseFirestore.instance.collection('users').doc(uid).get();
         if (!userDoc.exists) {
           await FirebaseFirestore.instance.collection('users').doc(uid).set({
-            'fullName':'',
             'phoneNumber': mobile,
-            'email': '',
-            'userName': '',
-            'address': '',
-            'selectedLanguage': '',
           });
+          Get.offNamed('/initial_profile');
           print('User added to Firestore.');
         } else {
+          Get.offAllNamed('/dashboard');
           print('User already exists in Firestore.');
         }
       } catch (error) {
@@ -29,8 +27,6 @@ class FirestoreService {
       print('No user is currently logged in.');
     }
   }
-
- 
 
   Future<Map<String, dynamic>> getUserDetail() async {
     final User? user = FirebaseAuth.instance.currentUser;

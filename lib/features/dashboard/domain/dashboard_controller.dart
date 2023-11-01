@@ -11,7 +11,7 @@ class DashboardController extends GetxController {
 
   void handleCardTap(int index) {
     if (index == 0) {
-      Get.toNamed('/profile');
+      Get.toNamed('/main_profile');
     } else if (index == 1) {
       Get.toNamed('/weather');
     } else if (index == 2) {

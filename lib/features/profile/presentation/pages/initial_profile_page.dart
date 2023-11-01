@@ -1,3 +1,5 @@
+import 'package:cropmaster/common/splash_widget.dart';
+import 'package:cropmaster/features/dashboard/presentation/pages/dashboard.dart';
 import 'package:cropmaster/features/profile/data/profile_entities.dart';
 import 'package:cropmaster/features/profile/domain/profile_controller.dart';
 import 'package:cropmaster/features/profile/presentation/widgets/profile_header_widget.dart';
@@ -5,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-class ProfilePage extends StatelessWidget {
+class InitialProfilePage extends StatelessWidget {
   final ProfileController controller = Get.put(ProfileController());
 
   final TextEditingController firstNameController = TextEditingController();
@@ -17,7 +19,7 @@ class ProfilePage extends StatelessWidget {
   final TextEditingController cityController = TextEditingController();
   final TextEditingController pincodeController = TextEditingController();
 
-  ProfilePage({super.key});
+  InitialProfilePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -70,6 +72,14 @@ class ProfilePage extends StatelessWidget {
               pincode: pincodeController.text,
             );
             controller.updateUserDetails(newProfile);
+
+            Get.to(() => SplashWidget(
+                  imagePath: 'assets/gif/splash.gif',
+                  duration: const Duration(seconds: 2),
+                  onFinished: () {
+                    Get.off(() => DashboardPage());
+                  },
+                ));
           },
           child: const Text('Save'),
         ),

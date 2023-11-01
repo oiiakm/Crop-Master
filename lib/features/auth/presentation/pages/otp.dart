@@ -196,8 +196,6 @@ class _OtpPageState extends State<OtpPage> {
         otp,
         () async {
           await _users.addUserDetail(widget.mobile);
-          final getUserData = await _users.getUserDetail();
-          _navigation(getUserData);
         },
         (FirebaseAuthException e) {
           print("Error during OTP verification: $e");
@@ -211,16 +209,6 @@ class _OtpPageState extends State<OtpPage> {
     } catch (e) {
       print("Error: $e");
     }
-  }
-
-  Future<void> _navigation(Map<String, dynamic> userData) async {
-    Get.to(() => SplashWidget(
-          imagePath: 'assets/gif/splash.gif',
-          duration: const Duration(seconds: 2),
-          onFinished: () {
-            Get.off(() => DashboardPage());
-          },
-        ));
   }
 
   void _resendOTP() {
