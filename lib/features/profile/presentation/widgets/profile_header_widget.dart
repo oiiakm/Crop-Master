@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 class ProfileHeaderWidget extends StatelessWidget {
@@ -7,8 +8,10 @@ class ProfileHeaderWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double screenWidth = Get.width;
-    double screenHeight = Get.height;
+    ScreenUtil.init(context);
+
+    double screenWidth = ScreenUtil().screenWidth;
+    double screenHeight = ScreenUtil().screenHeight;
 
     SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(
@@ -18,7 +21,7 @@ class ProfileHeaderWidget extends StatelessWidget {
 
     return SizedBox(
       width: screenWidth,
-      height: screenHeight / 8,
+      height: screenHeight / 7,
       child: Stack(
         children: [
           Container(
@@ -39,12 +42,14 @@ class ProfileHeaderWidget extends StatelessWidget {
               ],
             ),
           ),
-          const Center(
+          Positioned(
+            left: 16.w,
+            top: 50.h,
             child: Text(
-              'Update Profile',
+              'Enter Your Details!',
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 25,
+                fontSize: 25.sp,
                 fontFamily: 'Inter',
                 fontWeight: FontWeight.w400,
               ),

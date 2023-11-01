@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 class HeaderWidget extends StatelessWidget {
-  const HeaderWidget({super.key});
+  const HeaderWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    double screenWidth = Get.width;
-    double screenHeight = Get.height;
+    ScreenUtil.init(context);
+
+    double screenWidth = ScreenUtil().screenWidth;
+    double screenHeight = ScreenUtil().screenHeight;
 
     SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(
@@ -18,7 +21,7 @@ class HeaderWidget extends StatelessWidget {
 
     return SizedBox(
       width: screenWidth,
-      height: screenHeight / 8,
+      height: screenHeight / 7,
       child: Stack(
         children: [
           Container(
@@ -39,39 +42,41 @@ class HeaderWidget extends StatelessWidget {
               ],
             ),
           ),
-          const Positioned(
-            left: 16,
-            top: 75,
+          Positioned(
+            left: 16.w,
+            top: 50.h,
             child: Text(
               'Dashboard',
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 25,
+                fontSize: 25.sp,
                 fontFamily: 'Inter',
                 fontWeight: FontWeight.w400,
               ),
             ),
           ),
           Positioned(
-              left: 410,
-              top: 75,
-              child: GestureDetector(
-                onTap: () {},
-                child: const Icon(
-                  Icons.search,
-                  color: Colors.white,
-                ),
-              )),
+            right: 50.w,
+            top: 50.h,
+            child: GestureDetector(
+              onTap: () {},
+              child: const Icon(
+                Icons.search,
+                color: Colors.white,
+              ),
+            ),
+          ),
           Positioned(
-              left: 460,
-              top: 75,
-              child: GestureDetector(
-                onDoubleTap: () {},
-                child: const Icon(
-                  Icons.more_vert_outlined,
-                  color: Colors.white,
-                ),
-              )),
+          right: 5.w,
+            top: 50.h,
+            child: GestureDetector(
+              onDoubleTap: () {},
+              child: const Icon(
+                Icons.more_vert_outlined,
+                color: Colors.white,
+              ),
+            ),
+          ),
         ],
       ),
     );

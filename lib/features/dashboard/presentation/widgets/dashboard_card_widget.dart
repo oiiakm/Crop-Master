@@ -14,6 +14,8 @@ class DashboardCardWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+        ScreenUtil.init(context);
+
     final cardData = dashboardController.cardDataList[index];
 
     return Column(
@@ -23,13 +25,16 @@ class DashboardCardWidget extends StatelessWidget {
             onTap: () {
               dashboardController.handleCardTap(index);
             },
-            child: Container(
-              width: 150.w,
-              height: 150.h,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage(backgroundImageUrl),
-                  fit: BoxFit.cover,
+            child: SizedBox(
+             
+              child: Container(
+                width: 120.w,
+                height: 110.h,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage(backgroundImageUrl),
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
             ),

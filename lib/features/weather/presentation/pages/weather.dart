@@ -1,6 +1,7 @@
 import 'package:cropmaster/features/weather/domain/weather_controller.dart';
 import 'package:cropmaster/features/weather/presentation/widgets/weather_header_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 class WeatherPage extends StatelessWidget {
@@ -18,7 +19,7 @@ class WeatherPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const SizedBox(height: 20),
+            SizedBox(height: 20.h),
                 Card(
                   elevation: 5,
                   shape: RoundedRectangleBorder(

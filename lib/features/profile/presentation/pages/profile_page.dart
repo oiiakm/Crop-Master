@@ -28,11 +28,14 @@ class ProfilePage extends StatelessWidget {
         child: Column(
           children: [
             const ProfileHeaderWidget(),
+            SizedBox(
+              height: 30.h,
+            ),
             Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const SizedBox(height: 20),
+                  SizedBox(height: 20.h),
                   buildUpdateForm(),
                 ],
               ),
@@ -46,10 +49,6 @@ class ProfilePage extends StatelessWidget {
   Widget buildUpdateForm() {
     return Column(
       children: [
-        Text(
-          'Enter Your Details:',
-          style: TextStyle(fontSize: 20.sp, fontWeight: FontWeight.bold),
-        ),
         buildTextField('First Name', firstNameController),
         buildTextField('Last Name', lastNameController),
         buildTextField('Age', ageController),
