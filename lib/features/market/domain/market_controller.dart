@@ -11,7 +11,7 @@ class MarketDialogueController extends GetxController {
     'Badnagar',
     'Bhopal(F&V)'
   ];
-  final List<String> cropList = ['Select Crop', 'Garlic', 'Potato', 'Onion'];
+  final List<String> cropList = ['Select Crop', 'Garlic', 'Potato', 'Tomato'];
 
   void selectMarket(String market) {
     selectedMarket.value = market;

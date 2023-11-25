@@ -44,6 +44,7 @@ dependencies:
   geocoding: ^2.1.1
   permission_handler: ^11.0.1
   intl: ^0.18.1
+  marquee: ^2.2.3
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +73,7 @@ flutter:
   assets:
     - assets/gif/
     - assets/images/
+    - assets/images/market/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -157,8 +157,8 @@ class MarketDialogueWidget extends StatelessWidget {
             print(
                 'Selected Date: ${DateFormat('dd-MM-yyyy').format(controller.selectedDate.value)}');
 
-            controller.clearFields();
             Navigator.of(context).pop();
+            controller.clearFields();
           },
           child: const Text('Submit'),
         ),
@@ -182,9 +182,16 @@ class MarketDialogueWidget extends StatelessWidget {
 
     if (response.statusCode == 200) {
       print('Response from server: ${response.body}');
+      Get.toNamed('/market', arguments: {
+        'marketName': marketName,
+        'cropName': cropName,
+        'formattedDate': formattedDate,
+        'predictionData': response.body,
+      });
     } else {
       print(
           'Failed to connect to the server. Status code: ${response.statusCode}');
+      Get.toNamed('/market_error');
     }
   }
 }
