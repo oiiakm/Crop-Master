@@ -1,4 +1,6 @@
 import 'package:cropmaster/features/dashboard/data/dashboard_card_entities.dart';
+import 'package:cropmaster/features/market/presentation/widgets/market_dialogue_widget.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class DashboardController extends GetxController {
@@ -17,7 +19,11 @@ class DashboardController extends GetxController {
     } else if (index == 2) {
       Get.toNamed('/mycrops');
     } else if (index == 3) {
-      Get.toNamed('/market');
+     Get.dialog(
+        MarketDialogueWidget(),
+        barrierDismissible: true,
+        barrierColor: Colors.black.withOpacity(0.5),
+      );
     }
   }
 }

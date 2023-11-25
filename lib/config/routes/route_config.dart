@@ -2,6 +2,7 @@ import 'package:cropmaster/config/routes/initial_splash.dart';
 import 'package:cropmaster/config/routes/route_name.dart';
 import 'package:cropmaster/features/auth/presentation/pages/authentication.dart';
 import 'package:cropmaster/features/dashboard/presentation/pages/dashboard.dart';
+import 'package:cropmaster/features/market/presentation/pages/market.dart';
 import 'package:cropmaster/features/profile/presentation/pages/initial_profile_page.dart';
 import 'package:cropmaster/features/profile/presentation/pages/main_profile_page.dart';
 import 'package:cropmaster/features/weather/presentation/pages/weather.dart';
@@ -17,5 +18,6 @@ class AppRoutes {
     GetPage(name: RouteName.initialProfileRouteName, page: () => InitialProfilePage()),
     GetPage(name: RouteName.mainProfileRouteName, page: () => MainProfilePage()),
     GetPage(name: RouteName.weatherRouteName, page: () => WeatherPage()),
+    GetPage(name: RouteName.marketRouteName, page: () => MarketPage()),
   ];
 }
