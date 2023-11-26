@@ -148,6 +148,9 @@ class _MainProfilePageState extends State<MainProfilePage> {
               ],
             ),
           ),
+          SizedBox(
+            height: 30.h,
+          ),
           ElevatedButton(
             onPressed: () async {
               _logout(context);

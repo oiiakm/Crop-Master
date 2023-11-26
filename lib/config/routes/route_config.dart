@@ -5,6 +5,7 @@ import 'package:cropmaster/features/auth/presentation/pages/authentication.dart'
 import 'package:cropmaster/features/dashboard/presentation/pages/dashboard.dart';
 import 'package:cropmaster/features/market/presentation/pages/market.dart';
 import 'package:cropmaster/features/market/presentation/pages/market_error.dart';
+import 'package:cropmaster/features/mycrops/presentation/pages/mycrops.dart';
 import 'package:cropmaster/features/profile/presentation/pages/initial_profile_page.dart';
 import 'package:cropmaster/features/profile/presentation/pages/main_profile_page.dart';
 import 'package:cropmaster/features/weather/presentation/pages/weather.dart';
@@ -17,10 +18,15 @@ class AppRoutes {
         page: () => const InitialSplashPage()),
     GetPage(name: RouteName.dashboardRouteName, page: () => DashboardPage()),
     GetPage(name: RouteName.authRouteName, page: () => AuthenticationPage()),
-    GetPage(name: RouteName.initialProfileRouteName, page: () => InitialProfilePage()),
-    GetPage(name: RouteName.mainProfileRouteName, page: () => MainProfilePage()),
+    GetPage(
+        name: RouteName.initialProfileRouteName,
+        page: () => InitialProfilePage()),
+    GetPage(
+        name: RouteName.mainProfileRouteName, page: () => MainProfilePage()),
     GetPage(name: RouteName.weatherRouteName, page: () => WeatherPage()),
     GetPage(name: RouteName.marketRouteName, page: () => MarketPage()),
-     GetPage(name: RouteName.marketErrorRouteName, page: () => MarketErrorPage()),
+    GetPage(
+        name: RouteName.marketErrorRouteName, page: () => MarketErrorPage()),
+    GetPage(name: RouteName.mycropsRouteName, page: () => MyCropsPage()),
   ];
 }

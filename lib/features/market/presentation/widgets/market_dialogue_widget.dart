@@ -1,5 +1,6 @@
 import 'package:cropmaster/common/snackbar.dart';
 import 'package:cropmaster/features/market/domain/market_controller.dart';
+import 'package:cropmaster/features/market/presentation/widgets/network_error_dialogue.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
@@ -168,30 +169,42 @@ class MarketDialogueWidget extends StatelessWidget {
 
   Future<void> sendPredictRequest(
       String marketName, String cropName, DateTime date) async {
-    String formattedDate = DateFormat('dd-MM-yyyy').format(date);
-    final Map<String, String> data = {
-      'marketname': marketName,
-      'commodity': cropName,
-      'Date': formattedDate,
-    };
+    try {
+      String formattedDate = DateFormat('dd-MM-yyyy').format(date);
+      final Map<String, String> data = {
+        'marketname': marketName,
+        'commodity': cropName,
+        'Date': formattedDate,
+      };
 
-    final response = await http.post(
-      Uri.parse('http://10.0.2.2:5000/predict'),
-      body: data,
-    );
+      final response = await http.post(
+        // Uri.parse('http://10.0.2.2:5000/predict'),
+        Uri.parse(
+            'http://ec2-16-171-160-193.eu-north-1.compute.amazonaws.com:8080/predict'),
+        body: data,
+      ).timeout(Duration(seconds: 10));
 
-    if (response.statusCode == 200) {
-      print('Response from server: ${response.body}');
-      Get.toNamed('/market', arguments: {
-        'marketName': marketName,
-        'cropName': cropName,
-        'formattedDate': formattedDate,
-        'predictionData': response.body,
-      });
-    } else {
-      print(
-          'Failed to connect to the server. Status code: ${response.statusCode}');
-      Get.toNamed('/market_error');
+      if (response.statusCode == 200) {
+        print('Response from server: ${response.body}');
+        Get.toNamed('/market', arguments: {
+          'marketName': marketName,
+          'cropName': cropName,
+          'formattedDate': formattedDate,
+          'predictionData': response.body,
+        });
+      } else {
+        print(
+            'Failed to connect to the server. Status code: ${response.statusCode}');
+        Get.toNamed('/market_error');
+      }
+    } catch (e) {
+       Get.dialog(
+       NetworkErrorDialog(),
+        barrierDismissible: true,
+        barrierColor: Colors.black.withOpacity(0.5),
+      );
+      print('Error: $e');
+      
     }
   }
 }
