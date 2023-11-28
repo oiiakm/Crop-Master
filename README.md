@@ -36,22 +36,16 @@ https://github.com/oiiakm/Crop-Master/assets/100027640/d3550b4b-0ec0-4db0-9256-9
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/crop-planner.git
+    git clone https://github.com/oiiakm/Crop-Master.git
     ```
 
-2. Navigate to the Flutter app directory:
-
-    ```bash
-    cd crop-planner/flutter_app
-    ```
-
-3. Install dependencies:
+2. Install dependencies:
 
     ```bash
     flutter pub get
     ```
 
-4. Run the app:
+3. Run the app:
 
     ```bash
     flutter run
