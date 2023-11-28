@@ -6,6 +6,10 @@ Crop Planner is a Flutter application designed to assist farmers in planning the
 
 ## Screenshots
 
+https://github.com/oiiakm/Crop-Master/assets/100027640/d3550b4b-0ec0-4db0-9256-9ab31e0e7813
+
+
+
 ## Features
 
 - **User Authentication:**
