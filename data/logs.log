@@ -1,0 +1,768 @@
+2023-11-09 00:35:55,236:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-09 00:35:55,236:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-09 00:35:55,236:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-09 00:35:55,236:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-19 17:22:11,765:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-19 17:22:11,765:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-19 17:22:11,765:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-19 17:22:11,765:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-19 17:25:56,640:INFO:PyCaret RegressionExperiment
+2023-11-19 17:25:56,640:INFO:Logging name: reg-default-name
+2023-11-19 17:25:56,640:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-19 17:25:56,640:INFO:version 3.1.0
+2023-11-19 17:25:56,640:INFO:Initializing setup()
+2023-11-19 17:25:56,640:INFO:self.USI: fe32
+2023-11-19 17:25:56,640:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-19 17:25:56,640:INFO:Checking environment
+2023-11-19 17:25:56,640:INFO:python_version: 3.9.0
+2023-11-19 17:25:56,640:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-19 17:25:56,640:INFO:machine: AMD64
+2023-11-19 17:25:56,640:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-19 17:25:56,648:INFO:Memory: svmem(total=7951552512, available=1115119616, percent=86.0, used=6836432896, free=1115119616)
+2023-11-19 17:25:56,648:INFO:Physical Core: 8
+2023-11-19 17:25:56,648:INFO:Logical Core: 16
+2023-11-19 17:25:56,648:INFO:Checking libraries
+2023-11-19 17:25:56,648:INFO:System:
+2023-11-19 17:25:56,648:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-19 17:25:56,648:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-19 17:25:56,648:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-19 17:25:56,648:INFO:PyCaret required dependencies:
+2023-11-19 17:28:13,147:INFO:PyCaret RegressionExperiment
+2023-11-19 17:28:13,147:INFO:Logging name: reg-default-name
+2023-11-19 17:28:13,147:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-19 17:28:13,147:INFO:version 3.1.0
+2023-11-19 17:28:13,147:INFO:Initializing setup()
+2023-11-19 17:28:13,147:INFO:self.USI: fe2d
+2023-11-19 17:28:13,147:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-19 17:28:13,147:INFO:Checking environment
+2023-11-19 17:28:13,147:INFO:python_version: 3.9.0
+2023-11-19 17:28:13,148:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-19 17:28:13,148:INFO:machine: AMD64
+2023-11-19 17:28:13,148:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-19 17:28:13,157:INFO:Memory: svmem(total=7951552512, available=1491116032, percent=81.2, used=6460436480, free=1491116032)
+2023-11-19 17:28:13,157:INFO:Physical Core: 8
+2023-11-19 17:28:13,157:INFO:Logical Core: 16
+2023-11-19 17:28:13,158:INFO:Checking libraries
+2023-11-19 17:28:13,158:INFO:System:
+2023-11-19 17:28:13,158:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-19 17:28:13,158:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-19 17:28:13,158:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-19 17:28:13,158:INFO:PyCaret required dependencies:
+2023-11-19 17:29:44,864:INFO:PyCaret RegressionExperiment
+2023-11-19 17:29:44,864:INFO:Logging name: reg-default-name
+2023-11-19 17:29:44,864:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-19 17:29:44,864:INFO:version 3.1.0
+2023-11-19 17:29:44,864:INFO:Initializing setup()
+2023-11-19 17:29:44,864:INFO:self.USI: cf51
+2023-11-19 17:29:44,864:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-19 17:29:44,864:INFO:Checking environment
+2023-11-19 17:29:44,864:INFO:python_version: 3.9.0
+2023-11-19 17:29:44,864:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-19 17:29:44,864:INFO:machine: AMD64
+2023-11-19 17:29:44,864:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-19 17:29:44,872:INFO:Memory: svmem(total=7951552512, available=1076400128, percent=86.5, used=6875152384, free=1076400128)
+2023-11-19 17:29:44,872:INFO:Physical Core: 8
+2023-11-19 17:29:44,872:INFO:Logical Core: 16
+2023-11-19 17:29:44,872:INFO:Checking libraries
+2023-11-19 17:29:44,872:INFO:System:
+2023-11-19 17:29:44,872:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-19 17:29:44,872:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-19 17:29:44,872:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-19 17:29:44,872:INFO:PyCaret required dependencies:
+2023-11-19 17:30:07,677:INFO:PyCaret RegressionExperiment
+2023-11-19 17:30:07,677:INFO:Logging name: reg-default-name
+2023-11-19 17:30:07,677:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-19 17:30:07,677:INFO:version 3.1.0
+2023-11-19 17:30:07,677:INFO:Initializing setup()
+2023-11-19 17:30:07,677:INFO:self.USI: 50d8
+2023-11-19 17:30:07,677:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-19 17:30:07,677:INFO:Checking environment
+2023-11-19 17:30:07,677:INFO:python_version: 3.9.0
+2023-11-19 17:30:07,677:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-19 17:30:07,677:INFO:machine: AMD64
+2023-11-19 17:30:07,677:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-19 17:30:07,685:INFO:Memory: svmem(total=7951552512, available=1142124544, percent=85.6, used=6809427968, free=1142124544)
+2023-11-19 17:30:07,685:INFO:Physical Core: 8
+2023-11-19 17:30:07,685:INFO:Logical Core: 16
+2023-11-19 17:30:07,685:INFO:Checking libraries
+2023-11-19 17:30:07,685:INFO:System:
+2023-11-19 17:30:07,693:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-19 17:30:07,693:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-19 17:30:07,693:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-19 17:30:07,693:INFO:PyCaret required dependencies:
+2023-11-19 17:30:41,611:INFO:PyCaret RegressionExperiment
+2023-11-19 17:30:41,611:INFO:Logging name: reg-default-name
+2023-11-19 17:30:41,611:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-19 17:30:41,611:INFO:version 3.1.0
+2023-11-19 17:30:41,611:INFO:Initializing setup()
+2023-11-19 17:30:41,611:INFO:self.USI: 2097
+2023-11-19 17:30:41,611:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-19 17:30:41,611:INFO:Checking environment
+2023-11-19 17:30:41,611:INFO:python_version: 3.9.0
+2023-11-19 17:30:41,611:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-19 17:30:41,611:INFO:machine: AMD64
+2023-11-19 17:30:41,611:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-19 17:30:41,619:INFO:Memory: svmem(total=7951552512, available=984043520, percent=87.6, used=6967508992, free=984043520)
+2023-11-19 17:30:41,619:INFO:Physical Core: 8
+2023-11-19 17:30:41,619:INFO:Logical Core: 16
+2023-11-19 17:30:41,619:INFO:Checking libraries
+2023-11-19 17:30:41,619:INFO:System:
+2023-11-19 17:30:41,619:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-19 17:30:41,619:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-19 17:30:41,619:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-19 17:30:41,619:INFO:PyCaret required dependencies:
+2023-11-19 17:30:45,346:INFO:PyCaret RegressionExperiment
+2023-11-19 17:30:45,346:INFO:Logging name: reg-default-name
+2023-11-19 17:30:45,346:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-19 17:30:45,346:INFO:version 3.1.0
+2023-11-19 17:30:45,346:INFO:Initializing setup()
+2023-11-19 17:30:45,346:INFO:self.USI: dd84
+2023-11-19 17:30:45,346:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-19 17:30:45,346:INFO:Checking environment
+2023-11-19 17:30:45,346:INFO:python_version: 3.9.0
+2023-11-19 17:30:45,346:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-19 17:30:45,346:INFO:machine: AMD64
+2023-11-19 17:30:45,346:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-19 17:30:45,354:INFO:Memory: svmem(total=7951552512, available=946278400, percent=88.1, used=7005274112, free=946278400)
+2023-11-19 17:30:45,354:INFO:Physical Core: 8
+2023-11-19 17:30:45,354:INFO:Logical Core: 16
+2023-11-19 17:30:45,354:INFO:Checking libraries
+2023-11-19 17:30:45,354:INFO:System:
+2023-11-19 17:30:45,354:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-19 17:30:45,354:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-19 17:30:45,354:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-19 17:30:45,354:INFO:PyCaret required dependencies:
+2023-11-19 17:31:23,346:INFO:PyCaret RegressionExperiment
+2023-11-19 17:31:23,346:INFO:Logging name: reg-default-name
+2023-11-19 17:31:23,346:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-19 17:31:23,346:INFO:version 3.1.0
+2023-11-19 17:31:23,346:INFO:Initializing setup()
+2023-11-19 17:31:23,346:INFO:self.USI: 59e1
+2023-11-19 17:31:23,346:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-19 17:31:23,346:INFO:Checking environment
+2023-11-19 17:31:23,346:INFO:python_version: 3.9.0
+2023-11-19 17:31:23,346:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-19 17:31:23,346:INFO:machine: AMD64
+2023-11-19 17:31:23,346:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-19 17:31:23,354:INFO:Memory: svmem(total=7951552512, available=892227584, percent=88.8, used=7059324928, free=892227584)
+2023-11-19 17:31:23,354:INFO:Physical Core: 8
+2023-11-19 17:31:23,354:INFO:Logical Core: 16
+2023-11-19 17:31:23,354:INFO:Checking libraries
+2023-11-19 17:31:23,354:INFO:System:
+2023-11-19 17:31:23,354:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-19 17:31:23,354:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-19 17:31:23,354:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-19 17:31:23,354:INFO:PyCaret required dependencies:
+2023-11-19 17:32:16,227:INFO:PyCaret RegressionExperiment
+2023-11-19 17:32:16,227:INFO:Logging name: reg-default-name
+2023-11-19 17:32:16,227:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-19 17:32:16,227:INFO:version 3.1.0
+2023-11-19 17:32:16,227:INFO:Initializing setup()
+2023-11-19 17:32:16,227:INFO:self.USI: 683b
+2023-11-19 17:32:16,227:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-19 17:32:16,227:INFO:Checking environment
+2023-11-19 17:32:16,227:INFO:python_version: 3.9.0
+2023-11-19 17:32:16,227:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-19 17:32:16,227:INFO:machine: AMD64
+2023-11-19 17:32:16,227:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-19 17:32:16,235:INFO:Memory: svmem(total=7951552512, available=811941888, percent=89.8, used=7139610624, free=811941888)
+2023-11-19 17:32:16,235:INFO:Physical Core: 8
+2023-11-19 17:32:16,235:INFO:Logical Core: 16
+2023-11-19 17:32:16,235:INFO:Checking libraries
+2023-11-19 17:32:16,235:INFO:System:
+2023-11-19 17:32:16,235:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-19 17:32:16,235:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-19 17:32:16,235:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-19 17:32:16,235:INFO:PyCaret required dependencies:
+2023-11-19 17:34:46,029:INFO:PyCaret RegressionExperiment
+2023-11-19 17:34:46,029:INFO:Logging name: reg-default-name
+2023-11-19 17:34:46,029:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-19 17:34:46,029:INFO:version 3.1.0
+2023-11-19 17:34:46,029:INFO:Initializing setup()
+2023-11-19 17:34:46,029:INFO:self.USI: caec
+2023-11-19 17:34:46,029:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-19 17:34:46,029:INFO:Checking environment
+2023-11-19 17:34:46,029:INFO:python_version: 3.9.0
+2023-11-19 17:34:46,029:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-19 17:34:46,029:INFO:machine: AMD64
+2023-11-19 17:34:46,029:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-19 17:34:46,029:INFO:Memory: svmem(total=7951552512, available=870064128, percent=89.1, used=7081488384, free=870064128)
+2023-11-19 17:34:46,029:INFO:Physical Core: 8
+2023-11-19 17:34:46,029:INFO:Logical Core: 16
+2023-11-19 17:34:46,029:INFO:Checking libraries
+2023-11-19 17:34:46,029:INFO:System:
+2023-11-19 17:34:46,029:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-19 17:34:46,029:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-19 17:34:46,029:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-19 17:34:46,029:INFO:PyCaret required dependencies:
+2023-11-19 17:36:12,209:INFO:PyCaret RegressionExperiment
+2023-11-19 17:36:12,209:INFO:Logging name: reg-default-name
+2023-11-19 17:36:12,209:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-19 17:36:12,209:INFO:version 3.1.0
+2023-11-19 17:36:12,209:INFO:Initializing setup()
+2023-11-19 17:36:12,209:INFO:self.USI: 1fb7
+2023-11-19 17:36:12,209:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-19 17:36:12,209:INFO:Checking environment
+2023-11-19 17:36:12,210:INFO:python_version: 3.9.0
+2023-11-19 17:36:12,210:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-19 17:36:12,210:INFO:machine: AMD64
+2023-11-19 17:36:12,210:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-19 17:36:12,210:INFO:Memory: svmem(total=7951552512, available=945446912, percent=88.1, used=7006105600, free=945446912)
+2023-11-19 17:36:12,210:INFO:Physical Core: 8
+2023-11-19 17:36:12,210:INFO:Logical Core: 16
+2023-11-19 17:36:12,210:INFO:Checking libraries
+2023-11-19 17:36:12,210:INFO:System:
+2023-11-19 17:36:12,210:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-19 17:36:12,210:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-19 17:36:12,210:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-19 17:36:12,210:INFO:PyCaret required dependencies:
+2023-11-19 17:37:17,860:INFO:PyCaret RegressionExperiment
+2023-11-19 17:37:17,860:INFO:Logging name: reg-default-name
+2023-11-19 17:37:17,860:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-19 17:37:17,860:INFO:version 3.1.0
+2023-11-19 17:37:17,860:INFO:Initializing setup()
+2023-11-19 17:37:17,860:INFO:self.USI: 719c
+2023-11-19 17:37:17,860:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-19 17:37:17,860:INFO:Checking environment
+2023-11-19 17:37:17,860:INFO:python_version: 3.9.0
+2023-11-19 17:37:17,860:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-19 17:37:17,860:INFO:machine: AMD64
+2023-11-19 17:37:17,860:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-19 17:37:17,871:INFO:Memory: svmem(total=7951552512, available=522321920, percent=93.4, used=7429230592, free=522321920)
+2023-11-19 17:37:17,871:INFO:Physical Core: 8
+2023-11-19 17:37:17,871:INFO:Logical Core: 16
+2023-11-19 17:37:17,871:INFO:Checking libraries
+2023-11-19 17:37:17,871:INFO:System:
+2023-11-19 17:37:17,871:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-19 17:37:17,871:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-19 17:37:17,871:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-19 17:37:17,871:INFO:PyCaret required dependencies:
+2023-11-20 09:22:40,392:WARNING:C:\Users\yuvra\AppData\Local\Temp\ipykernel_17392\319199378.py:1: UserWarning:
+
+Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+
+
+2023-11-20 09:22:40,936:INFO:PyCaret RegressionExperiment
+2023-11-20 09:22:40,936:INFO:Logging name: reg-default-name
+2023-11-20 09:22:40,936:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-11-20 09:22:40,936:INFO:version 3.1.0
+2023-11-20 09:22:40,936:INFO:Initializing setup()
+2023-11-20 09:22:40,936:INFO:self.USI: 0dd6
+2023-11-20 09:22:40,936:INFO:self._variable_keys: {'X_train', 'idx', 'fold_shuffle_param', 'y_train', 'gpu_n_jobs_param', 'fold_groups_param', 'transform_target_param', 'X', 'exp_id', '_ml_usecase', 'X_test', 'logging_param', 'USI', 'exp_name_log', 'y', 'log_plots_param', 'gpu_param', 'data', 'html_param', 'target_param', '_available_plots', 'memory', 'n_jobs_param', 'seed', 'fold_generator', 'pipeline', 'y_test'}
+2023-11-20 09:22:40,936:INFO:Checking environment
+2023-11-20 09:22:40,936:INFO:python_version: 3.9.0
+2023-11-20 09:22:40,936:INFO:python_build: ('tags/v3.9.0:9cf6752', 'Oct  5 2020 15:34:40')
+2023-11-20 09:22:40,936:INFO:machine: AMD64
+2023-11-20 09:22:40,936:INFO:platform: Windows-10-10.0.19041-SP0
+2023-11-20 09:22:40,944:INFO:Memory: svmem(total=7951552512, available=505507840, percent=93.6, used=7446044672, free=505507840)
+2023-11-20 09:22:40,944:INFO:Physical Core: 8
+2023-11-20 09:22:40,944:INFO:Logical Core: 16
+2023-11-20 09:22:40,944:INFO:Checking libraries
+2023-11-20 09:22:40,944:INFO:System:
+2023-11-20 09:22:40,944:INFO:    python: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2023-11-20 09:22:40,944:INFO:executable: c:\Users\yuvra\AppData\Local\Programs\Python\Python39\python.exe
+2023-11-20 09:22:40,944:INFO:   machine: Windows-10-10.0.19041-SP0
+2023-11-20 09:22:40,944:INFO:PyCaret required dependencies:
+2023-11-20 09:22:57,217:WARNING:C:\Users\yuvra\AppData\Local\Temp\ipykernel_17392\319199378.py:1: UserWarning:
+
+Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+
+
+2023-11-20 09:34:40,838:WARNING:C:\Users\yuvra\AppData\Local\Temp\ipykernel_17392\319199378.py:1: UserWarning:
+
+Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+
+
+2023-11-20 09:39:39,498:WARNING:C:\Users\yuvra\AppData\Roaming\Python\Python39\site-packages\IPython\core\completerlib.py:120: UserWarning:
+
+using rootmodules_cache requires you to install the `pickleshare` library.
+
+
+2023-11-20 09:55:30,671:WARNING:C:\Users\yuvra\AppData\Local\Temp\ipykernel_17392\319199378.py:1: UserWarning:
+
+Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+
+
+2023-11-20 11:35:21,931:WARNING:C:\Users\yuvra\AppData\Local\Temp\ipykernel_17392\319199378.py:1: UserWarning:
+
+Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+
+
+2023-11-20 11:39:54,691:WARNING:C:\Users\yuvra\AppData\Roaming\Python\Python39\site-packages\IPython\core\completerlib.py:120: UserWarning:
+
+using rootmodules_cache requires you to install the `pickleshare` library.
+
+
+2023-11-20 11:39:57,280:WARNING:C:\Users\yuvra\AppData\Roaming\Python\Python39\site-packages\IPython\core\completerlib.py:120: UserWarning:
+
+using rootmodules_cache requires you to install the `pickleshare` library.
+
+
+2023-11-20 11:39:57,425:WARNING:C:\Users\yuvra\AppData\Roaming\Python\Python39\site-packages\IPython\core\completerlib.py:120: UserWarning:
+
+using rootmodules_cache requires you to install the `pickleshare` library.
+
+
+2023-11-20 11:39:58,643:WARNING:C:\Users\yuvra\AppData\Roaming\Python\Python39\site-packages\IPython\core\completerlib.py:120: UserWarning:
+
+using rootmodules_cache requires you to install the `pickleshare` library.
+
+
+2023-11-20 12:01:02,067:WARNING:C:\Users\yuvra\AppData\Local\Temp\ipykernel_17392\319199378.py:1: UserWarning:
+
+Parsing dates in DD/MM/YYYY format when dayfirst=False (the default) was specified. This may lead to inconsistently parsed dates! Specify a format to ensure consistent parsing.
+
+
+2023-11-20 12:05:12,466:WARNING:C:\Users\yuvra\AppData\Roaming\Python\Python39\site-packages\IPython\core\completerlib.py:120: UserWarning:
+
+using rootmodules_cache requires you to install the `pickleshare` library.
+
+
+2023-11-20 12:16:15,870:WARNING:C:\Users\yuvra\AppData\Roaming\Python\Python39\site-packages\IPython\core\completerlib.py:120: UserWarning:
+
+using rootmodules_cache requires you to install the `pickleshare` library.
+
+
+2023-11-20 12:23:32,612:WARNING:C:\Users\yuvra\AppData\Roaming\Python\Python39\site-packages\IPython\core\completerlib.py:120: UserWarning:
+
+using rootmodules_cache requires you to install the `pickleshare` library.
+
+
+2023-11-20 12:27:19,878:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-20 12:27:19,878:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-20 12:27:19,887:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-20 12:27:38,944:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-20 12:27:38,944:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-20 12:27:38,944:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-20 12:27:41,903:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-20 12:27:41,903:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-20 12:27:41,911:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-20 12:28:42,398:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-20 12:28:42,398:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-20 12:28:42,398:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:09:08,734:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:09:08,734:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:09:08,742:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:09:50,169:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:09:50,170:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:09:50,170:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:09:50,508:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning:
+
+Maximum Likelihood optimization failed to converge. Check mle_retvals
+
+
+2023-11-21 10:11:52,009:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:11:52,011:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:11:52,012:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:11:58,063:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:11:58,063:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:11:58,063:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:03,058:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:03,058:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:03,067:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:08,821:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:08,821:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:08,821:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:14,373:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:14,373:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:14,373:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:19,081:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:19,083:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:19,083:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:24,411:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:24,411:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:24,419:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:31,492:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:31,492:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:31,492:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:31,901:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning:
+
+Maximum Likelihood optimization failed to converge. Check mle_retvals
+
+
+2023-11-21 10:12:38,325:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:38,333:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:38,333:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:39,693:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning:
+
+Maximum Likelihood optimization failed to converge. Check mle_retvals
+
+
+2023-11-21 10:12:45,062:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:45,062:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:45,062:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:12:46,540:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning:
+
+Maximum Likelihood optimization failed to converge. Check mle_retvals
+
+
+2023-11-21 10:13:38,251:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:13:38,251:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:13:38,259:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:13:39,746:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning:
+
+Maximum Likelihood optimization failed to converge. Check mle_retvals
+
+
+2023-11-21 10:13:57,342:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:13:57,349:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:13:57,349:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:18:49,833:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:18:49,833:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:18:49,833:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:19:03,608:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:19:03,608:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:19:03,616:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:19:36,007:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:19:36,015:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:19:36,015:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:21:59,132:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:21:59,132:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:21:59,139:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:23:34,742:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:23:34,743:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:23:34,743:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:473: ValueWarning:
+
+A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+
+
+2023-11-21 10:39:09,399:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\arraylike.py:402: RuntimeWarning:
+
+overflow encountered in exp
+
+
+2023-11-21 10:42:42,779:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\arraylike.py:402: RuntimeWarning:
+
+overflow encountered in exp
+
+
+2023-11-21 10:51:28,553:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning:
+
+No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+
+
+2023-11-21 10:51:28,553:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning:
+
+No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+
+
+2023-11-21 10:52:51,419:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning:
+
+No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+
+
+2023-11-21 10:52:51,419:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning:
+
+No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+
+
+2023-11-21 10:52:51,497:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning:
+
+No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+
+
+2023-11-21 10:52:51,497:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning:
+
+No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+
+
+2023-11-21 10:53:55,556:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning:
+
+No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+
+
+2023-11-21 10:53:55,556:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning:
+
+No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+
+
+2023-11-21 10:53:55,607:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning:
+
+No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+
+
+2023-11-21 10:53:55,607:WARNING:c:\Users\yuvra\AppData\Local\Programs\Python\Python39\lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning:
+
+No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+
+
